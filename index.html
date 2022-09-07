@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <h2>Select your favorite actor</h2>
+        <select onchange="fav()" id="selection" class="custom-select">
+            <option value="RobertJohnDowney" selected>Robert John Downey</option>
+            <option value="ScarlettIngridJohansson">Scarlett Ingrid Johansson</option>
+            <option value="ChristopherRobertEvans">Christopher Robert Evans</option>
+            <option value="MarkAlanRuffalo">Mark Alan Ruffalo</option>
+            <option value="ChristopherHemsworth">Christopher Hemsworth</option>
+            <option value="JeremyLeeRenner">Jeremy Lee Renner</option>
+            <option value="ThomasWilliamHiddleston">Thomas William Hiddleston</option>
+        </select>
+
+        <img id="actors" src="img/RobertJohnDowney.jpg" alt="" onmouseenter="info(this)" onmouseleave="retInfo(this)">
+        <h3 id="actorInfo">Robert John Downey Jr.</h3>
+        <p id="allInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid odit ipsa eveniet quo unde eos adipisci aperiam? Iure inventore aliquam doloremque id nesciunt, quisquam ea reiciendis reprehenderit numquam eveniet.
+        Natus alias veniam obcaecati nulla a. Sint, illum impedit, nam exercitationem iusto pariatur obcaecati quae necessitatibus accusantium neque temporibus debitis aliquid facilis incidunt! Porro repellat, sapiente dignissimos expedita cupiditate consequatur!</p>
+    </div>
+
+    
+</body>
+</html>
+<script src="js/script.js"></script>
